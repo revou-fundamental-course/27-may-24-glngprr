@@ -162,14 +162,17 @@ body{
  #data_nama{
     margin-left: 55px;
     width: 60%;
- }
- 
- #data_pesan{
-    margin-left: 46px;
+    height: 20px;
  }
  
  #data_ttl{
     width: 60%;
+    height: 20px;
+ }
+
+ #data_pesan{
+    margin-left: 46px;
+    margin-top: 3.5px;
  }
  
  #nama{
@@ -183,6 +186,7 @@ body{
  #submit{
     width: 82%;
     height: 30px;
+    margin-left: 0px;
  }
  
  .result-container{
