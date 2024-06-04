@@ -1,11 +1,119 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>Tes</title>
-    </head>
 
-    <body>
-        
-    </body>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Mini Project</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+
+   <body>
+      <nav>
+         <div class="logo-item">
+
+         </div>
+
+         <section>
+            <a class="nav-item item1" href="#home">Home</a>
+            <a class="nav-item item2" href="#facilities">Our Profile </a>
+            <a class="nav-item item3" href="#achievement">Achievement </a>
+            <a class="nav-item item4" href="#message-us">Message Us</a>
+         </section>
+      </nav>
+
+      <!-- <hr> -->
+
+      <section class="container">
+         <!-- Home -->
+         <section id="home">
+            <header class="welcome1">
+               <h1>Hi Budy, Welcome to website</h1>
+            </header>
+
+            <article>
+               <p class="welcome2">Ini adalah website latihan pertama</p>
+
+               <div class="benner-container">
+
+               </div>
+            </article>
+         </section>  
+
+         <!-- Our Facilities -->
+         <section id="facilities">
+            <header>
+               <h1 class="fasilitas">Our Facilities</h1>
+            </header>
+
+            <article class="facility-list">
+               <div>
+                  <div class="facilities-item1" style="width:120px ; height: 120px; border: 1px solid black;"></div>
+                  <h5 class="bulet1">Professional Teacher</h5>
+               </div>
+
+               <div>
+                  <div class="facilities-item2" style="width:120px ; height: 120px; border: 1px solid black;"></div>
+                  <h5 class="bulet2">Sport Field</h5>
+               </div>
+
+               <div>
+                  <div class="facilities-item3" style="width:120px ; height: 120px; border: 1px solid black;"></div>
+                  <h5 class="bulet3">Classroom</h5>
+               </div>
+            </article>
+         </section>
+
+         <hr>
+
+         <!-- Message Us -->
+         <section id="message-us">
+            <header>
+               <h1 class="message">Message Us</h1>
+            </header>
+
+            <section class="message-us-section">
+               <!-- Form -->
+               <section class="form">
+                  <form>
+                     <div class="form-group">
+                        <label for="data_nama" id="nama">Nama :</label>
+                        <input type="text" for="data_nama" id="data_nama">
+                     </div>  
+                     <div class="form-group"> 
+                        <label for="data_ttl">Tanggal Lahir :</label>
+                        <input type="text" for="data-ttl" id="data_ttl">
+                     </div>
+                     <div class="form-group">
+                        <label for="jenis-kelamin">Jenis Kelamin :</label>
+                        <input type="radio" name="jenis-kelamin" value="laki-laki"><label for="ya">Laki-Laki</label>
+                        <input type="radio" name="jenis-kelamin" value="perempuan"><label for="ya">Perempuan</label>
+                     </div>
+                     <div class="form-group"> 
+                        <label for="data_pesan" id="pesan">Pesan :</label>
+                        <textarea name="data_pesan" id="data_pesan"></textarea>
+                     </div>
+                     <div class="form-group">
+                        <input type="button" name="Submit" value="Submit" id="submit">
+                     </div>
+                  </form>
+               </section>
+
+               <!-- Result -->
+               <section class="result-container">
+                  <div class="form-result">
+                     <input type="data_all" name="data_all" id="data_all">
+                  </div>
+               </section>
+            </section>
+
+            <footer>
+               <div class="footer">
+                  <p class="wm">Created By glng</p>
+               </div>
+            </footer>
+         </section>
+      </section>
+   </body>
 </html>
